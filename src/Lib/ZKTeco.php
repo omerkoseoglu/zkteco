@@ -436,6 +436,6 @@ class ZKTeco{
 
   public function unlockDoor($delay)
   {
-      Door::unlock($this, $delay);
+      return Door::unlock($this, $delay);
   }
 }

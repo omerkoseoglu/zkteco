@@ -11,7 +11,7 @@ class Door
         $self->_section = __METHOD__;
 
         $command = Util::CMD_UNLOCK_DOOR;
-        $command_string = pack('I', Util::encodeTime($delay));
+        $command_string = pack("I", intval($delay)*10);
 
         return $self->_command($command, $command_string);
     }
