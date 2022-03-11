@@ -74,6 +74,8 @@ class Util
   const ATT_TYPE_OVERTIME_IN = 4;
   const ATT_TYPE_OVERTIME_OUT = 5;
 
+  const CMD_UNLOCK_DOOR = 31;
+
   /**
    * Encode a timestamp send at the timeclock
    * copied from zkemsdk.c - EncodeTime
